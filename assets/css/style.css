@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+h1 {
+  margin-top: 20px;
+}
+#tiles-container {
+  margin-top: 50px;
+  width: 450px;
+  height: 420px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  overflow: hidden;/* Agregamos esta propiedad */
+}
+.tile {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  background-size: cover;
+  transition: transform 0.3s ease;
+}
+#tile-1 {
+  background-image: url("../img/numero-1.png");
+}
+#tile-2 {
+  background-image: url("../img/numero-2.png");
+}
+#tile-3 {
+  background-image: url("../img/numero-3.png");
+}
+#tile-4 {
+  background-image: url("../img/numero-4.png");
+}
+#tile-5 {
+  background-image: url("../img/numero-5.png");
+}
+#tile-6 {
+  background-image: url("../img/numero-6.png");
+}
+#tile-7 {
+  background-image: url("../img/numero-7.png");
+}
+#tile-8 {
+  background-image: url("../img/numero-8.png");
+}
+#tile-9 {
+  background-image: url("../img/numero-9.png");
+}
+#tile-10 {
+  background-image: url("../img/numero-10.png");
+}
+#tile-11 {
+  background-image: url("../img/numero-11.png");
+}
+#tile-12 {
+  background-image: url("../img/numero-12.png");
+}
+#tile-13 {
+  background-image: url("../img/numero-13.png");
+}
+#tile-14 {
+  background-image: url("../img/numero-14.png");
+}
+#tile-15 {
+  background-image: url("../img/numero-15.png");
+}
+#tile-16 {
+  background-size: cover;
+}
